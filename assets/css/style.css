@@ -1,4 +1,32 @@
+#me{
+	height: auto;
+	width: auto;
+	max-width: 300px;
+}
+
 h1{
 	background-color: black;
 	color: white;
+	width: 400px;
+	text-align: center;
+}
+
+.contact{
+	border:2px;
+	border-style: solid;
+	border-color: black;
+	float: left;
+	padding: 20px;
+	margin: 20px;
+}
+
+
+.about{
+	border:2px;
+	border-style: solid;
+	border-color: black;
+	float: left;
+	padding: 20px;
+	margin:20px;
+	width: 60%;
 }
