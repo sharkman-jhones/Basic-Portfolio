@@ -1,10 +1,17 @@
 body{
-	background-image: url(assets\images\cork-wallet.png);
+	background-image: url("../images/background.png");
 }
 #me{
 	height: auto;
 	width: auto;
 	max-width: 300px;
+}
+
+header{
+	background-color: #eee;
+	border-bottom: 6px black solid;
+	padding-bottom: 50px;
+	font-family: sans-serif;
 }
 
 h1{
@@ -14,6 +21,7 @@ h1{
 
 h2{
 	color: #4AAAA5;
+	font-weight: bold;
 }
 
 .contact{
@@ -23,17 +31,20 @@ h2{
 	float: left;
 	padding: 20px;
 	margin: 20px;
+	background-color: white;
 }
 
 
-.about{
+.about, .portfolio, .contactField{
 	border:2px;
 	border-style: solid;
 	border-color: black;
 	float: left;
 	padding: 20px;
 	margin-top:20px;
-	width: 60%;
+	margin-left: 40px;
+	width: 50%;
+	background-color: white;
 }
 
 li
@@ -46,6 +57,10 @@ li
 	padding: 25px;
 	background-color: #4AAAA5;
 	margin-left: 30px;
+	font-family: serif;
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
 }
 
 .aboutNav, .portfolioNav, .contactNav{
@@ -57,13 +72,10 @@ li
 	
 }
 
-header{
-	background-color: #eee;
-	border-bottom: 6px black solid;
-	padding-bottom: 50px;
-}
+
 
 .footer{
+	color: #C1BFB3;
 	background-color: #666;
 	border-top: 6px black solid;
 	text-align: center;
@@ -71,5 +83,4 @@ header{
 	bottom: 0;
 	width: 98%;
 	padding-top: 50px;
-
 }
