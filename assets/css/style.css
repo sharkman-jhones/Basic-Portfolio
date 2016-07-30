@@ -21,6 +21,11 @@ input{
 	border: solid #DDD 1px;
 }
 
+.nameInput, .emailInput{
+	padding-bottom: 10px;
+	font-size: 15px;
+}
+
 .messageInput{
 	padding-bottom: 200px;
 }
@@ -94,7 +99,7 @@ h2{
 	padding: 20px;
 	margin-top:20px;
 	margin-left: 40px;
-	margin-bottom: 100px;
+	margin-bottom: 40px;
 	width: 650px;
 	background-color: white;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -113,12 +118,12 @@ h2{
 
 nav{
 	float: right;
-	padding: 25px;
 	padding-top: 30px;
 	background-color: white;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	margin-right: 450px;
+	margin-right: 480px;
 	color:#777;
+	display: block;
 }
 
 .footer{
@@ -155,4 +160,8 @@ nav{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-size: 18px;
+}
+
+.imgText:hover{
+	color: #ff407e;
 }
