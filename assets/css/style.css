@@ -94,13 +94,9 @@ h2{
 	padding: 20px;
 	margin-top:20px;
 	margin-left: 40px;
-	width: 60%;
+	width: 650px;
 	background-color: white;
 	font-family: serif;
-}
-
-li{
-	display: inline-block;
 }
 
 .nameTitle{
@@ -114,22 +110,14 @@ li{
 	font-size: 30px;
 }
 
-.aboutNav, .portfolioNav, .contactNav{
+nav{
 	float: right;
 	padding: 25px;
 	padding-top: 30px;
 	background-color: white;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-.pipes{
-	float: right;
-	padding-top: 30px;
-	color: #777777;
-}
-
-.contactNav{
 	margin-right: 40px;
+	color:#777;
 }
 
 .footer{
@@ -147,7 +135,7 @@ li{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.catPics{
+.img1, .img2, .img3, .img4, .img5{
 	float: left;
 	margin: 10px;
 }
